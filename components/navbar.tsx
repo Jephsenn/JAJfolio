@@ -13,28 +13,53 @@ export default function Navbar(props: Props){
             <div className={styles.logo}>JAJ</div>
             <ul className={styles.nav_container}>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faHouse}/>
-                    Home 
+                    <Link href="/#Home">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faHouse}/>
+                            Home
+                        </div>
+                    </Link>
                 </li>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faUser}/>
-                    About
+                    <Link href="/#About">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faUser}/>
+                            About
+                        </div>
+                    </Link>
                 </li>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faBriefcase}/>
-                    Service
+                    <Link href="/#Services">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faBriefcase}/>
+                            Services
+                        </div>
+                    </Link>
                 </li>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faGraduationCap}/>
-                    Experience
+                    <Link href="/#Experience">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faGraduationCap}/>
+                            Experience
+                        </div>
+                    </Link>
+                    
                 </li>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faLayerGroup}/>
-                    Portfolio
+                    <Link href="/#Portfolio">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faLayerGroup}/>
+                            Portfolio
+                        </div>
+                    </Link>         
                 </li>
                 <li>
-                    <FontAwesomeIcon className={styles.fai} icon={faComments}/>
-                    Contact
+                    <Link href="/#Contact">
+                        <div className={styles.nav_link}>
+                            <FontAwesomeIcon className={styles.fai} icon={faComments}/>
+                            Contact
+                        </div>
+                    </Link>                  
                 </li>
             </ul>
             <div className={styles.footer}>

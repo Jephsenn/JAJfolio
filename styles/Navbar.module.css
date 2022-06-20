@@ -33,11 +33,15 @@
 }
 
 .nav_container li{
-    padding: 1rem;
     text-align: left;
 }
 
-.nav_container li:hover{
+.nav_link{
+    width: fit-content;
+    margin: 1rem 0;
+}
+
+.nav_link:hover{
     color: blue;
     cursor: pointer;
 }
