@@ -1,0 +1,49 @@
+.main_nav{
+    width: 10vw;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #0280ee;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    margin-right: 10vw;
+    border-right: 1px groove white;
+    box-shadow: 1px 0px 10px black;
+}
+
+.logo {
+    padding: 2rem 0;
+    font-size: 40px;
+}
+
+.footer {
+    padding: 2rem 0;
+    font-size: 12.5px;
+    text-align: center;
+}
+
+.nav_container{
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav_container li{
+    padding: 1rem;
+    text-align: left;
+}
+
+.nav_container li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.fai{
+    align-self: center;
+    margin-right: 1rem;
+    width: 20px;
+}
