@@ -2,7 +2,7 @@
     width: 10vw;
     min-height: 100vh;
     height: 100vh;
-    background-color: #0280ee;
+    background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
     color:white;
@@ -11,25 +11,27 @@
     position: fixed;
     top: 0;
     margin-right: 10vw;
-    border-right: 1px groove white;
-    box-shadow: 1px 0px 10px black;
+    box-shadow: 2px 0 5px black;
 }
 
 .logo {
     padding: 2rem 0;
     font-size: 40px;
+    color: var(--color-text);
 }
 
 .footer {
     padding: 2rem 0;
     font-size: 12.5px;
     text-align: center;
+    color: var(--color-text);
 }
 
 .nav_container{
     padding: 0;
     list-style: none;
     font-size: 20px;
+    color: var(--color-text);
 }
 
 .nav_container li{
@@ -42,7 +44,7 @@
 }
 
 .nav_link:hover{
-    color: blue;
+    text-shadow: 1px 1px 5px black;
     cursor: pointer;
 }
 
